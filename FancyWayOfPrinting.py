@@ -1,4 +1,8 @@
 # Importing different libraries for different functions to be used in this program
+import pyfiglet
+import time
+from colorama import Fore
+
 # Defining function to print text with animation effect
 # Defining function to print ASCII art with animation effect
 # Taking user's input for the name and their dream job
