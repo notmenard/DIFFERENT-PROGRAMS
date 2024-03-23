@@ -23,5 +23,5 @@ birthday = input("When is your birthday? ")
 dream_job = input("What is your dream job? ")
 school_attending = input("Which school are you currently attending? ")
 
-# Printing the ASCII art for the user's name with specified color and width
-# Printing the ASCII art for the user's dream job with specified color and width
+# Printing the ASCII art for the user's data with specified color and width
+print_ascii_art(name, color=Fore.CYAN, width=200, delay=0.0001)
