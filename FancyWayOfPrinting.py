@@ -23,12 +23,12 @@ print_with_animation("Welcome to this Program!", Fore.LIGHTMAGENTA_EX)
 
 # Assigning Variable and Getting user's input for each questions
 name = input("Enter your name: ")
-birthdate = input("When is your birthdate? ")
+course = input("What course have you taken? ")
 dream_job = input("What is your dream job? ")
 school_attending = input("Which school are you currently attending? ")
 
 # Printing the ASCII art for the user's data with specified color and width
 print_ascii_art(name, color=Fore.CYAN, width=200, delay=0.0001)
-print_ascii_art(birthdate, color=Fore.MAGENTA, width=200, delay=0.0001)
+print_ascii_art(course, color=Fore.MAGENTA, width=200, delay=0.0001)
 print_ascii_art(dream_job, color=Fore.GREEN, width=240, delay=0.0001)
 print_ascii_art(school_attending, color=Fore.BLUE, width=240, delay=0.0001)
