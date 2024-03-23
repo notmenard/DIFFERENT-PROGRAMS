@@ -16,6 +16,12 @@ def print_ascii_art(text, font='isometric1', color=Fore.YELLOW, width=150, delay
     for line in ascii_art.split('\n'):
         print_with_animation(line,color,delay)
 
-# Taking user's input for the name and their dream job
+
+# Assigning Variable and Getting user's input for each questions
+name = input("Enter your name: ")
+birthday = input("When is your birthday? ")
+dream_job = input("What is your dream job? ")
+school_attending = input("Which school are you currently attending? ")
+
 # Printing the ASCII art for the user's name with specified color and width
 # Printing the ASCII art for the user's dream job with specified color and width
